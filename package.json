@@ -1,0 +1,19 @@
+{
+  "name": "SomeNanoRepeater",
+  "version": "1.0.0",
+  "description": "A simple repeater for a Nano Node",
+  "main": "client.js",
+  "license": "GPL-3.0",
+  "repository": "https://github.com/SomeNano/repeater",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm client.js"
+  },
+  "homepage": "https://github.com/SomeNano/repeater",
+  "dependencies": {
+    "express": "^4.17.1",
+    "reconnecting-websocket": "^4.4.0",
+    "socket.io": "^3.1.0",
+    "ws": "^7.3.0"
+  }
+}
